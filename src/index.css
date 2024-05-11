@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .input-style {
+    @apply bg-transparent border border-gray-300 rounded-lg p-3 text-white md:text-lg font-body focus:border-purple-500;
+  }
+  body{
+    @apply font-body;
+  }
+
+}
+
+*{
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  user-select: none;
+}
